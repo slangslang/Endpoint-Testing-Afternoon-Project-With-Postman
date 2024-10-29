@@ -8,13 +8,13 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 ## Table of Contents
 - [Setup](#setup)
 - [Testing Steps](#testing-steps)
-  - [1. Importing Postman Collection](#1-importing-postman-collection)
-  - [2. GET Requests](#2-get-requests)
-  - [3. Query Testing](#3-query-testing)
-  - [4. Updating User](#4-updating-user)
-  - [5. Creating Users](#5-creating-users)
-  - [6. Deleting Users](#6-deleting-users)
-  - [7. Running All Tests](#7-running-all-tests)
+  - [1. Importing Postman Collection](#importing-postman-collection)
+  - [2. GET Requests](#get-requests)
+  - [3. Query Testing](#query-testing)
+  - [4. Updating User](#updating-user)
+  - [5. Creating Users](#creating-users)
+  - [6. Deleting Users](#deleting-users)
+  - [7. Running All Tests](#running-all-tests)
 - [Conclusion](#conclusion)
 
 ---
@@ -40,7 +40,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 ## Testing Steps
 
 <details>
-<summary>1. Importing Postman Collection</summary>
+<summary id="importing-postman-collection">1. Importing Postman Collection</summary>
   
 - Open Postman.
   
@@ -52,7 +52,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>2. GET Requests</summary>
+<summary id="get-requests">2. GET Requests</summary>
 
 - **All Users**:
   - Verify the response status is **200**.
@@ -67,7 +67,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>3. Query Testing</summary>
+<summary id="query-testing">3. Query Testing</summary>
 
 - **User with Query**:
   - Validate that users can be fetched based on query parameters.
@@ -78,7 +78,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>4. Updating User</summary>
+<summary id="updating-user">4. Updating User</summary>
 
 - **Update by ID**:
   - Test user updates, ensuring the returned user has updated properties.
@@ -89,7 +89,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>5. Creating Users</summary>
+<summary id="creating-users">5. Creating Users</summary>
 
 - **Create User**:
   - Ensure new users can be created and verify the returned data.
@@ -100,7 +100,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>6. Deleting Users</summary>
+<summary id="deleting-users">6. Deleting Users</summary>
 
 - **Remove User**:
   - Validate successful user removal and check the returned ID.
@@ -111,7 +111,7 @@ This project focuses on practicing the fundamentals of endpoint testing using Po
 </details>
 
 <details>
-<summary>7. Running All Tests</summary>
+<summary id="running-all-test">7. Running All Tests</summary>
 
 - Restart the server.
 - Click the right arrow next to the collection name in Postman and select **Run**.
