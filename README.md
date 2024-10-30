@@ -1,4 +1,4 @@
-# 🛠️ Endpoint Testing with Postman
+# 🛠️ Endpoint Testing Afternoon Project with Postman
 
 ## 🌟 Project Overview
 
