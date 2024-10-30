@@ -11,125 +11,111 @@ I invite you to explore the details of my project and see how I tackled endpoint
 
 ---
 
-## 📚 Table of Contents
-- [Setup](#%EF%B8%8F-setup)
-- [Testing Steps](#-testing-steps)
-  - [1. Importing Postman Collection](#importing-postman-collection)
-  - [2. GET Requests](#get-requests)
-  - [3. Query Testing](#query-testing)
-  - [4. Updating User](#updating-user)
-  - [5. Creating Users](#creating-users)
-  - [6. Deleting Users](#deleting-users)
-  - [7. Running All Tests](#running-all-tests)
-- [Conclusion](#-conclusion)
+## 📊 Project Demo
+
+![endpoint testing afternoon demo](https://github.com/slangslang/Endpoint-Testing-Afternoon-Project-With-Postman/blob/main/Untitledvideo-ezgif.com-video-to-gif-converter.gif)   
+*Preview of the finished project with all test passing in the collection*
 
 ---
 
 ## 🛠️ Setup
-1. **Fork and Clone the Repository**:
+1. **Forked and Cloned the Repository**:
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone <repo-url>
+   cd <my-github-repo-folder>
    ```
-2. **Install Dependencies**:
+2. **Installed Dependencies**:
    ```bash
    npm install
    ```
-3. **Start the Server**:
+3. **Started the Server**:
    ```bash
    nodeman
    ```
-   The server will run on port 3535. Please do not change this port.
+   The server ran on port 3535.
 
 ---
 
 ## 🔍 Testing Steps
 
 <details>
-<summary id="importing-postman-collection"><strong>1. Importing Postman Collection</strong></summary>
+<summary><strong>1. Imported Postman Collection</strong></summary>
 
-- **Open Postman.**
-  
-- **Click on the** <kbd>Import</kbd> **button** in the top left corner.
-
-- **Import the collection** located in the `postman_collection` folder.
-
-- You should now see a collection titled **Endpoint Testing Afternoon**.
+- I opened Postman and clicked on the <kbd>Import</kbd> button in the top left corner.
+- I successfully imported the collection from the `postman_collection` folder.
+- Now, I can see a collection titled **Endpoint Testing Afternoon** ready for use.
 </details>
 
 <details>
-<summary id="get-requests"><strong>2. GET Requests</strong></summary>
+<summary><strong>2. Executed GET Requests</strong></summary>
 
 - **All Users**:
-  - Verify the response status is **200**.
-  - Check that the returned data is an array with a length of **100**.
+  - I verified that the response status is **200**.
+  - I checked that the returned data is an array with a length of **100**.
 
 - **User by ID**:
-  - Ensure the correct user properties are returned for the specified ID.
+  - I ensured the correct user properties were returned for the specified ID.
 
 - **User by ID (Error)**:
-  - Confirm that appropriate error messages are displayed for invalid ID requests.
-
+  - I confirmed that appropriate error messages were displayed for invalid ID requests.
 </details>
 
 <details>
-<summary id="query-testing"><strong>3. Query Testing</strong></summary>
+<summary><strong>3. Conducted Query Testing</strong></summary>
 
 - **User with Query**:
-  - Validate that users can be fetched based on query parameters.
+  - I validated that users could be fetched based on query parameters.
 
 - **User with Query (Error)**:
-  - Check for correct error messaging when an improper query is sent.
-
+  - I checked for correct error messaging when an improper query was sent.
 </details>
 
 <details>
-<summary id="updating-user"><strong>4. Updating User</strong></summary>
+<summary><strong>4. Updated User Information</strong></summary>
 
 - **Update by ID**:
-  - Test user updates, ensuring the returned user has updated properties.
+  - I tested user updates and ensured the returned user had updated properties.
 
 - **Update by ID (Error)**:
-  - Verify error handling for invalid updates.
-
+  - I verified that error handling was effective for invalid updates.
 </details>
 
 <details>
-<summary id="creating-users"><strong>5. Creating Users</strong></summary>
+<summary><strong>5. Created New Users</strong></summary>
 
 - **Create User**:
-  - Ensure new users can be created and verify the returned data.
+  - I ensured new users could be created successfully and verified the returned data.
 
 - **Create User (Error)**:
-  - Check that the server responds correctly when required data is missing.
-
+  - I checked that the server responded correctly when required data was missing.
 </details>
 
 <details>
-<summary id="deleting-users"><strong>6. Deleting Users</strong></summary>
+<summary><strong>6. Deleted Users</strong></summary>
 
 - **Remove User**:
-  - Validate successful user removal and check the returned ID.
+  - I validated the successful removal of a user and checked the returned ID.
 
 - **Remove User (Error)**:
-  - Confirm proper error handling for attempts to delete non-existent users.
-
+  - I confirmed that proper error handling was in place for attempts to delete non-existent users.
 </details>
 
 <details>
-<summary id="running-all-tests"><strong>7. Running All Tests</strong></summary>
+<summary><strong>7. Ran All Tests</strong></summary>
 
-- **Restart the server.**
-- Click the right arrow next to the collection name in Postman and select **Run**.
-- Execute the entire collection to ensure all tests pass.
-
+- I restarted the server to ensure everything was fresh.
+- I clicked the right arrow next to the collection name in Postman and selected **Run**.
+- I executed the entire collection and confirmed that all tests passed successfully.
 </details>
+
+### 📡 Explore the API with Postman
+Click the button below to access the finished in-depth project:
+
+[![Postman Collection](https://img.shields.io/badge/Postman-Collection-orange?style=for-the-badge&logo=postman)](https://www.postman.com/rodman-1o4fwe9oqcsfx/workspace/endpoint-testing-afternoon/collection/34720226-c7d2a42f-49ef-49f6-a196-a59d8b3ab5a6?action=share&creator=34720226)
 
 ---
 
 ## 🎯 Conclusion
-Through this project, you gained valuable hands-on experience in API endpoint testing, validating responses, handling errors, and ensuring API reliability using Postman.
-
----
+Through this project, I gained valuable hands-on experience in API endpoint testing, validating responses, handling errors, and ensuring API reliability using Postman.
 
 Feel free to reach out if you have any questions or need further clarification! 🤝
